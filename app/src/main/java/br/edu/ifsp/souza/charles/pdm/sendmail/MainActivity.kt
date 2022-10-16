@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(amb.root)
 
         amb.cleanBt.setOnClickListener{
-
             with(amb){
                 toEt.setText("")
                 ccEt.setText("")
@@ -38,7 +37,6 @@ class MainActivity : AppCompatActivity() {
                 putExtra(EXTRA_BCC, arrayOf(amb.bccEt.toString()))
                 putExtra(EXTRA_SUBJECT, arrayOf(amb.subjectEt.toString()))
                 putExtra(EXTRA_TEXT, arrayOf(amb.messageEt.toString()))
-
                 type = "message/rfc822"
                 data = Uri.parse("mailto:")
             }
