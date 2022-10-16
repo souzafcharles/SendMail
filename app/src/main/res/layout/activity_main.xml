@@ -27,9 +27,7 @@
             android:id="@+id/toEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            />
-
+            android:inputType="textEmailAddress"/>
     </LinearLayout>
 
     <LinearLayout
@@ -52,11 +50,8 @@
             android:id="@+id/ccEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            />
-
+            android:inputType="textEmailAddress"/>
     </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/bccLl"
@@ -78,9 +73,7 @@
             android:id="@+id/bccEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            />
-
+            android:inputType="textEmailAddress"/>
     </LinearLayout>
 
     <LinearLayout
@@ -102,11 +95,8 @@
         <EditText
             android:id="@+id/subjectEt"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-
+            android:layout_height="wrap_content"/>
     </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/messageLl"
@@ -115,8 +105,7 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/subjectLl"
-        >
+        app:layout_constraintTop_toBottomOf="@+id/subjectLl">
 
         <TextView
             android:layout_width="wrap_content"
@@ -129,10 +118,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textMultiLine"
-            android:lines="14" />
-
+            android:lines="14"/>
     </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/buttonsLl"
@@ -141,7 +128,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" >
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
             android:id="@+id/cleanBt"
@@ -149,7 +136,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:text="Clean Form" />
+            android:text="Clean Form"/>
 
         <Button
             android:id="@+id/sendBt"
@@ -157,9 +144,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:text="Send Email" />
-
-
+            android:text="Send Email"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
